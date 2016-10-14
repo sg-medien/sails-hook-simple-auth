@@ -1,6 +1,6 @@
 {
   "name": "sails-hook-simple-auth",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Passport-based User Authentication system for sails.js applications.",
   "main": "dist/api/hooks/auth/index.js",
   "scripts": {
