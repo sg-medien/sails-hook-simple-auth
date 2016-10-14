@@ -1,11 +1,11 @@
-# sails-auth
+<h1>
+<a href="http://sailsjs.org"><img alt="Sails.js logo" src="http://balderdashy.github.io/sails/images/logo.png" title="Sails.js"/></a><br><br>sails-hook-simple-auth
+</h1>
 
-[![Looking for maintainers][hacktober-image]][hacktober-url]
+[![npm version](https://badge.fury.io/js/sails-hook-simple-auth.svg)](https://badge.fury.io/js/sails-hook-simple-auth)
+[![Dependencies](https://david-dm.org/sg-medien/sails-hook-simple-auth.svg)](https://david-dm.org/sg-medien/sails-hook-simple-auth)
 
-
-[![NPM version][npm-image]][npm-url]
-[![Build status][travis-image]][travis-url]
-[![Dependency Status][daviddm-image]][daviddm-url]
+*Needs at least Sails version 0.12.0 to work.*
 
 [Passport](http://passportjs.org/)-based User Authentication system for Sails.js applications.
 
