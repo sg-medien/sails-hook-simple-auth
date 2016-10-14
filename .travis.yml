@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '0.12'
+notifications:
+  email: false
+deploy:
+  provider: npm
+  email: hello@langa.io
+  api_key:
+    secure: eeSMpkSX5RYk4bA9+iv/hUUIlJ1sBRbhGG0rcuIi3oOly04qM3i4gysrhVQ+zdvPmPDI4RUOQDAZfI80+SDugxPK5O749usZcqpsHgu9saTozqWRf5jHnaurrpafjCfjU70MyNhkdIjSMWBA9qQe4E9hrnpS6sz8NtJVaPq44E4=
+  on:
+    tags: true
+    repo: langateam/sails-auth
