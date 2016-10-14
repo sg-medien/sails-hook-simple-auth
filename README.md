@@ -22,7 +22,7 @@ Controllers, Policies, etc into your Sails application.
 #### `config/passport.js`
 
 By default, the `local` and `basic` strategies are enabled. See
-[config/passport.js](https://github.com/langateam/sails-auth/blob/master/config/passport.js)
+[config/passport.js](https://github.com/sg-medien/sails-hook-simple-auth/blob/master/config/passport.js)
 for examples of how to add and configure additional authentication strategies.
 
 #### `config/auth.js`
