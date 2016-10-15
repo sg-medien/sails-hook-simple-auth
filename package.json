@@ -1,8 +1,8 @@
 {
   "name": "sails-hook-simple-auth",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Passport-based User Authentication system for sails.js applications.",
-  "main": "dist/api/hooks/auth/index.js",
+  "main": "dist/api/hooks/simple-auth/index.js",
   "scripts": {
     "test": "mocha --reporter spec --compilers js:babel-core/register",
     "prepublish": "gulp"

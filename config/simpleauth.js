@@ -1,4 +1,4 @@
-module.exports.auth = {
+module.exports.simpleauth = {
   bcrypt: {
     rounds: 8
   }
