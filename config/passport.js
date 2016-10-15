@@ -7,7 +7,7 @@
  * Authentication scopes can be set through the `scope` property.
  *
  * For more information on the available providers, check out:
- * http://passportjs.org/guide/providers/
+ * http://passportjs.org/docs/providers/
  */
 
 module.exports.passport = {

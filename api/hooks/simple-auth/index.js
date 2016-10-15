@@ -1,10 +1,10 @@
-let authHook = sails.hooks.auth;
+let simpleAuthHook = sails.hooks.simpleauth;
 
 import _ from 'lodash'
 import Marlinspike from 'marlinspike'
 
-if (!authHook) {
-  class Auth extends Marlinspike {
+if (!simpleAuthHook) {
+  class SimpleAuth extends Marlinspike {
 
     constructor(sails) {
       super(sails, module)
@@ -15,7 +15,7 @@ if (!authHook) {
     }
   }
 
-  authHook = Marlinspike.createSailsHook(Auth)
+  simpleAuthHook = Marlinspike.createSailsHook(SimpleAuth)
 }
 
-export default authHook;
+export default simpleAuthHook;
