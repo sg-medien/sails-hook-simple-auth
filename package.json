@@ -1,75 +1,76 @@
 {
   "name": "sails-hook-simple-auth",
-  "version": "0.0.4",
-  "description": "Passport-based User Authentication system for sails.js applications.",
-  "main": "dist/api/hooks/simple-auth/index.js",
+  "version": "0.0.5",
+  "description": "Sails hook which integrates a passport based user authentication system for your apps.",
+  "author": {
+    "name": "Sebastian Galler",
+    "email": "sg@sg-medien.com"
+  },
+  "bugs": "https://github.com/sg-medien/sails-hook-simple-auth/issues",
+  "contributors": [],
+  "dependencies": {
+    "lodash": "^4.16.4",
+    "passport": "^0.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "eslint": "^3.8.0",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
+    "sails": "~0.12.0"
+  },
   "scripts": {
-    "test": "mocha --reporter spec --compilers js:babel-core/register",
-    "prepublish": "gulp"
+    "compile": "babel lib --out-dir dist",
+    "prepublish": "npm run compile"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/sg-medien/sails-hook-simple-auth"
+  "engines": {
+    "node": ">= 4.0.0"
   },
+  "homepage": "https://github.com/sg-medien/sails-hook-simple-auth",
   "keywords": [
+    "sails-auth",
     "sails",
-    "sails.js",
-    "authentication",
     "auth",
+    "login",
+    "user-login",
+    "authentication",
+    "sails.js",
+    "sails-hook",
+    "hook",
+    "sails-passport-auth",
+    "sails-passport",
     "passport",
     "oauth",
     "oauth2",
     "openid",
-    "passport.js",
-    "generator",
+    "jwt",
+    "jsonwebtoken",
+    "sails-google-auth",
+    "sails-google-login",
+    "google-auth",
+    "google-login",
     "google",
+    "sails-facebook-auth",
+    "sails-facebook-login",
+    "facebook-auth",
+    "facebook-login",
     "facebook",
-    "twitter",
-    "linkedin",
-    "instagram",
-    "youtube"
+    "sails-twitter-auth",
+    "sails-twitter-login",
+    "twitter-auth",
+    "twitter-login",
+    "twitter"
   ],
-  "author": "Travis Webb <me@traviswebb.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sg-medien/sails-hook-simple-auth/issues"
-  },
-  "homepage": "https://github.com/sg-medien/sails-hook-simple-auth",
-  "dependencies": {
-    "base64url": "^2.0.0",
-    "bcryptjs": "^2.2",
-    "lodash": "^4.16",
-    "marlinspike": "^1.0",
-    "passport": "^0.3",
-    "passport-http": "^0.3",
-    "passport-http-bearer": "^1.0.1",
-    "passport-local": "^1.0.0"
-  },
-  "bundledDependencies": [
-    "bcryptjs",
-    "lodash",
-    "passport",
-    "passport-http",
-    "passport-local",
-    "passport-http-bearer"
-  ],
-  "devDependencies": {
-    "babel": "^6.5.2",
-    "babel-cli": "^6.14.0",
-    "babel-core": "^6.14.0",
-    "babel-plugin-add-module-exports": "^0.2.1",
-    "babel-preset-es2015": "^6.14.0",
-    "gulp": "^3.9.0",
-    "gulp-babel": "^6.1.2",
-    "mocha": "^3.1.0",
-    "sails": "^0.12.5",
-    "socket.io-client": "^1.3.5",
-    "supertest": "^2.0.0",
-    "waterline-sqlite3": "^1.0.3"
-  },
-  "engines": {
-    "node": ">= 0.12",
-    "npm": ">= 2.11"
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sg-medien/sails-hook-simple-auth.git"
   },
   "sails": {
     "isHook": true,
