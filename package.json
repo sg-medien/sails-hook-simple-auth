@@ -1,6 +1,6 @@
 {
   "name": "sails-hook-simple-auth",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Sails hook which integrates a passport based user authentication system for your apps.",
   "author": {
     "name": "Sebastian Galler",
@@ -10,7 +10,9 @@
   "contributors": [],
   "dependencies": {
     "lodash": "^4.16.4",
-    "passport": "^0.3.2"
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "sails-build-dictionary": "^0.10.1"
   },
   "devDependencies": {
     "babel-cli": "^6.16.0",
