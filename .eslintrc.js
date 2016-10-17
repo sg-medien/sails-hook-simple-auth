@@ -1,8 +1,8 @@
 module.exports = {
   "extends": "airbnb",
   "plugins": [
-	"jsx-a11y",
-	"import"
+    "jsx-a11y",
+    "import"
   ],
   "env": {
     "browser": true,
@@ -10,6 +10,16 @@ module.exports = {
   },
   "rules": {
     "valid-typeof": "off",
-    "max-len": [1, 150, 2, {ignoreComments: true}]
+    "no-underscore-dangle": "off",
+    "max-len": [
+      1,
+      150,
+      2,
+      { ignoreComments: true }
+    ],
+    "no-param-reassign": [
+      "error",
+      { "props": false }
+    ]
   }
 };
