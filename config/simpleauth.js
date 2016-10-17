@@ -1,6 +1,6 @@
 module.exports.simpleauth = {
   bcrypt: {
-    rounds: 8
+    rounds: 10
   }
 
 };
