@@ -11,15 +11,7 @@ module.exports = {
   "rules": {
     "valid-typeof": "off",
     "no-underscore-dangle": "off",
-    "max-len": [
-      1,
-      150,
-      2,
-      { ignoreComments: true }
-    ],
-    "no-param-reassign": [
-      "error",
-      { "props": false }
-    ]
+    "max-len": [1, 150, 2, { ignoreComments: true }],
+    "no-param-reassign": ["error",{ "props": false }]
   }
 };
