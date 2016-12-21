@@ -1,6 +1,6 @@
 {
   "name": "sails-hook-simple-auth",
-  "version": "0.1.7",
+  "version": "0.2.1",
   "description": "Sails hook which integrates a passport based user authentication for your apps.",
   "author": {
     "name": "Sebastian Galler",
